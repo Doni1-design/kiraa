@@ -1,0 +1,40 @@
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./footer.css";
+import { faFacebook, faInstagram, faYoutube, faTwitter } from '@fortawesome/free-brands-svg-icons';
+
+
+const Footer = () => {
+  return (
+    <>
+      <div classNameName="bodyc">
+<div classNameName="footerv">
+<div className="footerf">
+<div className="rowx">
+<a id="ico" href="#"><FontAwesomeIcon icon={faFacebook} /></a>
+<a id="ico" href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+<a id="ico" href="#"><FontAwesomeIcon icon={faYoutube} /></a>
+<a id="ico" href="#"><FontAwesomeIcon icon={faTwitter} /></a>
+</div>
+
+<div className="rowx">
+<ul>
+<li><a href="/">nos voitures</a></li>
+<li><a href="/agences">agences</a></li>
+<li><a href="/contact">contact</a></li>
+<li><a href="/about">qui sommes-nous ?</a></li>
+<li><a href="#" style={{ display: "none" }}>Career</a></li>
+</ul>
+</div>
+
+<div className="rowx" style={{  color : "whitesmoke" }}>
+Kiraa Copyright © 2024 Kiraa - All rights reserved || Designed By: Redouane & Sidali 
+</div>
+</div>
+</div>
+</div>
+    </>
+  );
+};
+
+export default Footer;
