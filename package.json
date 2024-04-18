@@ -56,5 +56,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://kiraaback.vercel.app"
+  "proxy": "https://kiraaback.vercel.app/api"
 }

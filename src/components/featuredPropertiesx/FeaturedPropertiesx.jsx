@@ -1,7 +1,8 @@
 import "./featuredPropertiesx.css";
 import useF from "../../Hooks/useF";
-import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+
+
 const FeaturedPropertiesx = ({ selectedDates }) => {
   const { data, error, loading } = useF("/hotels");
   console.log("Data:", data);
